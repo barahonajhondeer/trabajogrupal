@@ -39,6 +39,10 @@ namespace Calculadora
                         Console.WriteLine("Resultado de la suma: " + resultado);
                         break;
 
+                    case 2:
+                        resultado = num1 - num2;
+                        Console.WriteLine("Resultado de la resta: " + resultado);
+                        break;
 
 
                     case 4:

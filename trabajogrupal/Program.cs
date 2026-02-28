@@ -34,9 +34,25 @@ namespace Calculadora
 
                 switch (opcion)
                 {
-                    
 
-                  
+
+
+                    case 4:
+                        if (num2 != 0)
+                        {
+                            resultado = num1 / num2;
+                            Console.WriteLine("Resultado de la división: " + resultado);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Error: No se puede dividir entre cero.");
+                        }
+                        break;
+
+                    default:
+                        Console.WriteLine("Opción no válida.");
+                        break;
+
                 }
 
                 Console.Write("\n¿Desea continuar? (S/N): ");

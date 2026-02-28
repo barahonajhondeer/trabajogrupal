@@ -44,6 +44,11 @@ namespace Calculadora
                         Console.WriteLine("Resultado de la resta: " + resultado);
                         break;
 
+                    case 3:
+                        resultado = num1 * num2;
+                        Console.WriteLine("Resultado de la multiplicación: " + resultado);
+                        break;
+
 
                     case 4:
                         if (num2 != 0)
